@@ -26,8 +26,8 @@ session.add( comercial2 )
 session.add( comercial3 )
 
 # se crea un objetos de tipo centros_deportivos
-centro1 = centrosDeportivos(nombreCentro="Concentracion de futbol", localidad="Quito", tamaño="Coliseo", capacidad=300)
-centro2 = centrosDeportivos(nombreCentro="Polideportivo del Sur",   localidad="Quito", tamaño="Estadio", capacidad=500) 
+centro1 = centrosDeportivos(nombreCentro="Concentracion de futbol", localidad="Quito", tamano="Coliseo", capacidad=300)
+centro2 = centrosDeportivos(nombreCentro="Polideportivo del Sur",   localidad="Quito", tamano="Estadio", capacidad=500) 
 
         
 # a la espera de un commit
