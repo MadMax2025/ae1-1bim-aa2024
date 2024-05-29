@@ -9,8 +9,6 @@ db = client.propiedad_venta
 # Colección "locales_comida"
 locales_comida = db["locales_comida"]
 
-# Colección "centros_deportivos"
-centros_deportivos = db["centros_deportivos"]
 # Elemento 1
 local_comida1 = {
     "nombre": "Restaurante La Fogata",
@@ -29,6 +27,8 @@ local_comida2 = {
 
 locales_comida.insert_many([local_comida1, local_comida2])
 
+# Colección "centros_deportivos"
+centros_deportivos = db["centros_deportivos"]
 # Elemento 1
 centro_deportivo1 = {
     "nombre": "Gimnasio Los Titanes",
